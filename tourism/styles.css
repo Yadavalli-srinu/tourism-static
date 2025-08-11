@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+background-image: url(https://st.depositphotos.com/1001001/2392/i/450/depositphotos_23924739-stock-photo-beach-vacation-on-a-tropical.jpg);
+height: 100vh;
+width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: end;
+}
+.card{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: aliceblue;
+    height: 35vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: blue;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    background-color: burlywood;
+    border-radius: 30px;
+    height: 60px;
+    width: 170px;
+}
